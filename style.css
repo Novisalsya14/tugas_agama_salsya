@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #d375c3;
+}
+
+.title {
+    flex-grow: 1;
+    
+}
+
+nav a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 30px;
+    display: inline-block;
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #d375c3;
+    border-radius: 5px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding-left: 10px;
+}
+
+li {
+    margin-left: 15px;
+}
+h1, h2 {
+    text-align: center;
+    color: black;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #d375c3;
+    max-width: 2000px;
+    margin: auto;
+}
+
+.right-content {
+    text-align: center;
+}
+#hero {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    color: white;
+    max-width: 2000px;
+    margin: auto;
+}
+.hero-image {
+    width: 400px;
+    height: auto;
+    margin-bottom: 50px;
+}
+.hero-content {
+    padding-bottom: 150px;
+    flex: 1;
+}
+
+.hero-image2{
+    width: 400px;
+    height: auto;
+    margin-bottom: 50px;
+}
+
+
+
+h3{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 50px;
+    padding-left: 30px;
+    font-size: 30px;
+}
+
+#wrapper {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    color: white;
+    max-width: 2000px;
+    margin: auto;
+}
+
+.wrapper-content {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.wrapper-image {
+    width: 400px;
+    height: auto;
+    margin-bottom: 80px;
+    margin-top: 5px;
+}
+.wrapper-image2{
+    width: 400px;
+    height: auto;
+    margin-bottom: 80px;
+    margin-top: 5px;
+}
+
+h5{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 5px;
+    padding-bottom: 100px;
+    padding-left: 40px;
+    font-size: 30px;
+}
+
+p{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+footer {
+    background-color: #d375c3;
+    padding: 30px;
+    color: black;
+    text-align: center;
+}
